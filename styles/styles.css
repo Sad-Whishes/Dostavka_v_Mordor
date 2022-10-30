@@ -1,0 +1,40 @@
+/*Вставляємо зображення з підписом та рівняємо по лівому краю, робимо текст навколо*/
+figure {
+	width: 140px;
+	float:left;
+	margin: 0px 10px 0px 0px;
+	padding-bottom: 0px;
+	border:0px;
+}
+figcaption {
+	padding:0;
+	margin:0;
+	border: 0;
+	font-family: Arial;
+	font-size:18px;
+	font-weight: 600;
+}
+.leftimg {
+	width: 120px;
+	margin: 0px 10px 0px 0px;
+	padding: 0;
+}
+/*Робимо стилі параграфів*/
+p {
+	font-family: Arial;
+	font-size: 14px;
+	font-weight: 400;
+	text-indent: 1%;
+}
+/*Відступ та стиль української частини*/
+.ukr{
+	margin-top: 40px;
+	font-style: italic;
+	font-size: 14px;
+	font-weight: 400;
+	text-indent: 1%;
+}
+/*Курсив для автора тексту*/
+.autor {
+	font-style: italic;
+}
