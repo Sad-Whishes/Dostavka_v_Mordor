@@ -1,23 +1,25 @@
 /*Вставляємо зображення з підписом та рівняємо по лівому краю, робимо текст навколо*/
 figure {
-	width: 140px;
+	width: 120px;
 	float:left;
-	margin: 0px 10px 0px 0px;
-	padding-bottom: 0px;
-	border:0px;
+}
+/*додаємо паспорту*/
+.pasportu{
+	padding: 20px;
+	background: #F5F5F5;
+	margin: 0px 6px 0px 0px;
+	border: 2px #A4a195 solid;
 }
 figcaption {
-	padding:0;
-	margin:0;
-	border: 0;
 	font-family: Arial;
 	font-size:18px;
 	font-weight: 600;
 }
 .leftimg {
 	width: 120px;
-	margin: 0px 10px 0px 0px;
+	margin: 0px 0px 0px 0px;
 	padding: 0;
+	border: 1px #A4a195 solid;
 }
 /*Робимо стилі параграфів*/
 p {
